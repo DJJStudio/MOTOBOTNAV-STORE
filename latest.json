@@ -1,9 +1,9 @@
 {
     "app":  {
-                "versionName":  "1.5",
-                "versionCode":  6,
-                "changelog":  "เพิ่มปุ่มล้างค่าเทียบโวลต์ เอาโหมดทดสอบปุ่มหมวกออก",
-                "apk":  "MOTOBOTNAV-1.5.apk"
+                "versionName":  "1.6",
+                "versionCode":  7,
+                "changelog":  "เพิ่มหน้าแนะนำตั้งค่า Zello ไม่ดึง Maps กลับเองหลังกด PTT (เปิดได้ถ้าต้องการ)",
+                "apk":  "MOTOBOTNAV-1.6.apk"
             },
     "firmware":  {
                      "version":  "1.6",
