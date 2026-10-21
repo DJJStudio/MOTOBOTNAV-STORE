@@ -1,9 +1,9 @@
 {
     "app":  {
-                "versionName":  "1.2",
-                "versionCode":  3,
-                "changelog":  "รองรับเฟิร์มแวร์จอแบบเข้ารหัส",
-                "apk":  "MOTOBOTNAV-1.2.apk"
+                "versionName":  "1.3",
+                "versionCode":  4,
+                "changelog":  "เพิ่มปุ่มทดสอบปุ่มหมวก ลองกดดูว่าหมวกส่งอะไรมาบ้าง",
+                "apk":  "MOTOBOTNAV-1.3.apk"
             },
     "firmware":  {
                      "version":  "1.5",
