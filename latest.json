@@ -1,9 +1,9 @@
 {
     "app":  {
-                "versionName":  "1.4",
-                "versionCode":  5,
-                "changelog":  "มือถือล็อกอยู่ กด PTT แล้วไม่เด้ง Maps ขึ้นมา",
-                "apk":  "MOTOBOTNAV-1.4.apk"
+                "versionName":  "1.5",
+                "versionCode":  6,
+                "changelog":  "เพิ่มปุ่มล้างค่าเทียบโวลต์ เอาโหมดทดสอบปุ่มหมวกออก",
+                "apk":  "MOTOBOTNAV-1.5.apk"
             },
     "firmware":  {
                      "version":  "1.6",
