@@ -1,14 +1,14 @@
 {
     "app":  {
-                "versionName":  "1.3",
-                "versionCode":  4,
-                "changelog":  "เพิ่มปุ่มทดสอบปุ่มหมวก ลองกดดูว่าหมวกส่งอะไรมาบ้าง",
-                "apk":  "MOTOBOTNAV-1.3.apk"
+                "versionName":  "1.4",
+                "versionCode":  5,
+                "changelog":  "มือถือล็อกอยู่ กด PTT แล้วไม่เด้ง Maps ขึ้นมา",
+                "apk":  "MOTOBOTNAV-1.4.apk"
             },
     "firmware":  {
-                     "version":  "1.5",
-                     "changelog":  "ทดสอบอัพแบบเข้ารหัส",
-                     "bin":  "firmware/MOTOBOTNAV-fw-1.5.mbfw",
-                     "md5":  "1920aabf4867c497dd877dc5dac23056"
+                     "version":  "1.6",
+                     "changelog":  "วัดโวลต์แบตรถเกิน 12.3V ได้ตรงขึ้น (เทียบมิเตอร์ได้หลายจุด)",
+                     "bin":  "firmware/MOTOBOTNAV-fw-1.6.mbfw",
+                     "md5":  "8eb112b967b09148839242a5a128d662"
                  }
 }
