@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTOBOTNAV - จอนำทางติดมอเตอร์ไซค์ มีตาโรบอท</title>
+    <meta name="description" content="จอนำทางติดมอเตอร์ไซค์ บอกทางเลี้ยว สายเข้า ข้อความ เพลง และแบตรถ ต่อกับมือถือ Android ผ่านบลูทูธ">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
+
+        :root {
+            --primary: #e65100;
+            --primary-dark: #c24100;
+            --eye: #ffb400;
+            --soft: #fff3e0;
+            --line: #ffe0b2;
+            --text: #333333;
+            --muted: #666666;
+        }
+
+        * { box-sizing: border-box; }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
+            font-family: 'Prompt', sans-serif;
+            background: #111;
+            overflow-x: hidden;
+        }
+
+        /* พื้นหลังมืดแบบถนนกลางคืน + แสงส้มจากจอ */
+        .background {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 18px;
+            background:
+                radial-gradient(circle at 50% 18%, rgba(255,180,0,0.22), transparent 42%),
+                radial-gradient(circle at 15% 90%, rgba(230,81,0,0.18), transparent 40%),
+                linear-gradient(160deg, #1a1a1f 0%, #0b0b0d 100%);
+        }
+
+        .content-box {
+            background: rgba(255, 255, 255, 0.97);
+            color: var(--text);
+            padding: 22px 18px;
+            border-radius: 22px;
+            width: min(94vw, 560px);
+            text-align: center;
+            box-shadow: 0 20px 55px rgba(0,0,0,0.42);
+            border: 1px solid rgba(230, 81, 0, 0.12);
+        }
+
+        /* จอจำลอง: ตาโรบอทกะพริบ มองซ้ายขวา */
+        .screen {
+            width: 150px;
+            height: 112px;
+            margin: 0 auto 16px;
+            background: #000;
+            border: 6px solid #222;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            box-shadow: 0 10px 24px rgba(0,0,0,0.25);
+        }
+        .eyes { display: flex; gap: 18px; }
+        .eye {
+            width: 38px;
+            height: 38px;
+            border-radius: 10px;
+            background: var(--eye);
+            animation: blink 4.2s infinite, look 7s infinite ease-in-out;
+        }
+        .mouth { width: 34px; height: 5px; border-radius: 3px; background: var(--eye); }
+        @keyframes blink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(0.08); } }
+        @keyframes look { 0%, 40%, 100% { translate: 0 0; } 50%, 65% { translate: -8px -3px; } 75%, 88% { translate: 8px 0; } }
+        @media (prefers-reduced-motion: reduce) { .eye { animation: none; } }
+
+        h1 {
+            color: var(--primary);
+            font-size: clamp(2.2rem, 6vw, 3rem);
+            margin: 0 0 6px 0;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        h1 span { color: var(--eye); }
+
+        .slogan {
+            font-size: 0.98rem;
+            color: var(--muted);
+            margin: 0 0 18px 0;
+            line-height: 1.6;
+        }
+
+        .features-list {
+            text-align: left;
+            margin: 0 auto 18px auto;
+            padding: 0;
+            list-style: none;
+            display: grid;
+            gap: 10px;
+        }
+        .features-list li {
+            padding: 11px 12px;
+            border-radius: 12px;
+            font-size: 0.92rem;
+            display: flex;
+            align-items: flex-start;
+            background: #fbfbfb;
+            border: 1px solid #f1f1f1;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+        }
+        .features-list li:before {
+            content: '✔️';
+            margin-right: 10px;
+            flex: 0 0 auto;
+        }
+
+
+        .version-info {
+            background: #f8f9fa;
+            padding: 14px;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            margin-bottom: 18px;
+            text-align: left;
+            border-left: 4px solid var(--primary);
+            border-top: 1px solid #eee;
+            border-right: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+        }
+        .version-info p { margin: 5px 0; }
+
+        .cta-button {
+            display: block;
+            background: linear-gradient(135deg, var(--primary) 0%, #d84315 100%);
+            color: white;
+            text-decoration: none;
+            padding: 15px 16px;
+            font-size: 1rem;
+            border-radius: 999px;
+            font-weight: 600;
+            width: 100%;
+            box-shadow: 0 10px 24px rgba(230,81,0,0.3);
+            transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 14px 28px rgba(230,81,0,0.38);
+            filter: brightness(1.04);
+        }
+
+
+        .loading {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 18px;
+        }
+
+        @media (min-width: 768px) {
+            .content-box { padding: 34px; }
+            .features-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+            .cta-button { font-size: 1.1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background">
+        <div class="content-box">
+            <div class="screen" aria-hidden="true">
+                <div class="eyes"><div class="eye"></div><div class="eye"></div></div>
+                <div class="mouth"></div>
+            </div>
+
+            <h1>MOTO<span>BOT</span>NAV</h1>
+            <p class="slogan">จอนำทางติดมอเตอร์ไซค์ที่มีตาโรบอท ต่อกับมือถือ Android ผ่านบลูทูธ ไม่ต้องก้มดูมือถือเลย</p>
+
+            <ul class="features-list">
+                <li>บอกทางเลี้ยว ระยะทาง ชื่อถนน จาก Google Maps</li>
+                <li>ใกล้ทางเลี้ยวสลับเป็นแผนที่ มีเส้นนำทางตามถนนจริง</li>
+                <li>สายเข้าโชว์ชื่อ แตะจอรับสาย แตะสองทีตัดสาย</li>
+                <li>ข้อความจากแอปที่เลือกเด้งขึ้นจอ</li>
+                <li>ชื่อเพลงพร้อมปกอัลบั้ม แตะเล่น/หยุด ข้ามเพลงได้</li>
+                <li>ปุ่ม PTT คุย Zello กับแก๊งได้ไม่ต้องจับมือถือ</li>
+                <li>วัดแบตรถ เตือนเมื่อแบตต่ำ</li>
+                <li>เตือนรถติดข้างหน้าว่าช้าลงกี่นาที</li>
+            </ul>
+
+            <div class="version-info" id="versionBox" style="display: none;">
+                <p><strong>เวอร์ชั่นล่าสุด:</strong> <span id="vName"></span></p>
+                <p><strong>อัพเดทล่าสุด:</strong> <span id="changelog"></span></p>
+            </div>
+
+            <p id="loadingText" class="loading">กำลังตรวจสอบเวอร์ชั่นล่าสุด...</p>
+            <a id="downloadBtn" href="#" class="cta-button" style="display: none;">ดาวน์โหลดไฟล์ APK</a>
+        </div>
+    </div>
+
+<script>
+        // latest.json อยู่ใน repo เดียวกับหน้านี้ แอปก็อ่านไฟล์นี้เช็กอัพเดทแอปและเฟิร์มแวร์จอ
+        fetch("latest.json", { cache: "no-store" })
+            .then(response => response.ok ? response.json() : null)
+            .then(data => {
+                const app = data && data.app;
+                if (app && app.apk) {
+                    document.getElementById('loadingText').style.display = "none";
+                    document.getElementById('vName').innerText = app.versionName;
+                    document.getElementById('changelog').innerText = app.changelog || "-";
+                    document.getElementById('downloadBtn').href = app.apk;
+                    document.getElementById('versionBox').style.display = "block";
+                    document.getElementById('downloadBtn').style.display = "block";
+                } else {
+                    document.getElementById('loadingText').innerText = "ยังไม่มีไฟล์ให้ดาวน์โหลดในขณะนี้";
+                }
+            })
+            .catch(error => {
+                document.getElementById('loadingText').innerText = "เกิดข้อผิดพลาดในการดึงข้อมูล";
+                console.error("Error fetching latest.json:", error);
+            });
+    </script>
+
+</body>
+</html>

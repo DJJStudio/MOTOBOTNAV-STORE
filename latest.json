@@ -1,0 +1,14 @@
+{
+    "app":  {
+                "versionName":  "1.2",
+                "versionCode":  3,
+                "changelog":  "รองรับเฟิร์มแวร์จอแบบเข้ารหัส",
+                "apk":  "MOTOBOTNAV-1.2.apk"
+            },
+    "firmware":  {
+                     "version":  "1.5",
+                     "changelog":  "ทดสอบอัพแบบเข้ารหัส",
+                     "bin":  "firmware/MOTOBOTNAV-fw-1.5.mbfw",
+                     "md5":  "1920aabf4867c497dd877dc5dac23056"
+                 }
+}
