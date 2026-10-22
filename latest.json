@@ -1,9 +1,9 @@
 {
     "app":  {
-                "versionName":  "1.8",
-                "versionCode":  9,
-                "changelog":  "เส้นนำทางตามถนนแม่นขึ้น มีเส้นตอนกลับรถ เลือกโชว์แผนที่ตลอดการนำทางได้",
-                "apk":  "MOTOBOTNAV-1.8.apk"
+                "versionName":  "1.9",
+                "versionCode":  10,
+                "changelog":  "แผนที่ตลอดการนำทาง: ทางเลี้ยวยังไกล เส้นไม่หักมุมผิดที่แล้ว",
+                "apk":  "MOTOBOTNAV-1.9.apk"
             },
     "firmware":  {
                      "version":  "1.9",
