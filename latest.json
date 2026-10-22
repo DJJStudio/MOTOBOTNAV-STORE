@@ -1,14 +1,14 @@
 {
     "app":  {
-                "versionName":  "1.7",
-                "versionCode":  8,
-                "changelog":  "เส้นนำทางบนแผนที่วิ่งตามถนนจริงได้บ่อยขึ้น (เปลี่ยนแหล่งข้อมูลถนนเป็น OpenFreeMap)",
-                "apk":  "MOTOBOTNAV-1.7.apk"
+                "versionName":  "1.8",
+                "versionCode":  9,
+                "changelog":  "เส้นนำทางตามถนนแม่นขึ้น มีเส้นตอนกลับรถ เลือกโชว์แผนที่ตลอดการนำทางได้",
+                "apk":  "MOTOBOTNAV-1.8.apk"
             },
     "firmware":  {
-                     "version":  "1.6",
-                     "changelog":  "วัดโวลต์แบตรถเกิน 12.3V ได้ตรงขึ้น (เทียบมิเตอร์ได้หลายจุด)",
-                     "bin":  "firmware/MOTOBOTNAV-fw-1.6.mbfw",
-                     "md5":  "8eb112b967b09148839242a5a128d662"
+                     "version":  "1.9",
+                     "changelog":  "เลือกให้โชว์แผนที่ตลอดการนำทางได้ หรี่จอเองตอนมืด",
+                     "bin":  "firmware/MOTOBOTNAV-fw-1.9.mbfw",
+                     "md5":  "8794099e28f4251a4156ff7474c601f1"
                  }
 }
