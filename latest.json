@@ -1,9 +1,9 @@
 {
     "app":  {
-                "versionName":  "1.6",
-                "versionCode":  7,
-                "changelog":  "เพิ่มหน้าแนะนำตั้งค่า Zello ไม่ดึง Maps กลับเองหลังกด PTT (เปิดได้ถ้าต้องการ)",
-                "apk":  "MOTOBOTNAV-1.6.apk"
+                "versionName":  "1.7",
+                "versionCode":  8,
+                "changelog":  "เส้นนำทางบนแผนที่วิ่งตามถนนจริงได้บ่อยขึ้น (เปลี่ยนแหล่งข้อมูลถนนเป็น OpenFreeMap)",
+                "apk":  "MOTOBOTNAV-1.7.apk"
             },
     "firmware":  {
                      "version":  "1.6",
