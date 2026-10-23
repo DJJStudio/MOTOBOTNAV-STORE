@@ -6,9 +6,9 @@
                 "apk":  "MOTOBOTNAV-1.12.apk"
             },
     "firmware":  {
-                     "version":  "1.9",
-                     "changelog":  "เลือกให้โชว์แผนที่ตลอดการนำทางได้ หรี่จอเองตอนมืด",
-                     "bin":  "firmware/MOTOBOTNAV-fw-1.9.mbfw",
-                     "md5":  "8794099e28f4251a4156ff7474c601f1"
+                     "version":  "1.10",
+                     "changelog":  "ปิดการหรี่จอตามเซ็นเซอร์แสง จอหรี่ตามเวลากลางคืนอย่างเดียว",
+                     "bin":  "firmware/MOTOBOTNAV-fw-1.10.mbfw",
+                     "md5":  "288d3cabc85d60f0c33094ea43c39046"
                  }
 }
