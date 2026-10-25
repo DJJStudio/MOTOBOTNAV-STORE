@@ -1,14 +1,14 @@
 {
     "app":  {
-                "versionName":  "1.15",
-                "versionCode":  16,
-                "changelog":  "ล็อกมือถือกลับเองหลังสั่งนำทางด้วยเสียง (เปิดในหัวข้อสั่งด้วยเสียง)",
-                "apk":  "MOTOBOTNAV-1.15.apk"
+                "versionName":  "1.16",
+                "versionCode":  17,
+                "changelog":  "เลือกรูปโลโก้ตอนบูตเองได้ 2 ช่อง (หน้าตาจอ > โลโก้ตอนบูต)",
+                "apk":  "MOTOBOTNAV-1.16.apk"
             },
     "firmware":  {
-                     "version":  "1.11",
-                     "changelog":  "แตะปุ่ม 3 ครั้ง = สั่งด้วยเสียง (ต้องใช้แอป 1.13)",
-                     "bin":  "firmware/MOTOBOTNAV-fw-1.11.mbfw",
-                     "md5":  "30456f272e5ec6995c9df9250d12fe58"
+                     "version":  "1.12",
+                     "changelog":  "โลโก้ตอนบูตใช้รูปที่เลือกในแอปได้ (ต้องใช้แอป 1.16)",
+                     "bin":  "firmware/MOTOBOTNAV-fw-1.12.mbfw",
+                     "md5":  "758c1d1a4664e7a24dfef4eda1536570"
                  }
 }
