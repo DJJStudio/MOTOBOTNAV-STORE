@@ -6,9 +6,9 @@
                 "apk":  "MOTOBOTNAV-1.20.apk"
             },
     "firmware":  {
-                     "version":  "1.18",
-                     "changelog":  "โลโก้ใหม่ MOTOBOTNAV ตอนเปิดจอ + ลูกตากลมมีประกายแบบหน้าโรบอท",
-                     "bin":  "firmware/MOTOBOTNAV-fw-1.18.mbfw",
-                     "md5":  "950fe2aaa272bde2b8281f72f27bd459"
+                     "version":  "1.19",
+                     "changelog":  "หน้าจอเป็นหน้าโรบอทแบบโลโก้ใหม่ ลูกตาขยับอยู่ในหน้า",
+                     "bin":  "firmware/MOTOBOTNAV-fw-1.19.mbfw",
+                     "md5":  "d5705fa866ee9ed4f21c945ad3468bff"
                  }
 }
