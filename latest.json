@@ -1,14 +1,14 @@
 {
     "app":  {
-                "versionName":  "1.18",
-                "versionCode":  19,
-                "changelog":  "สั่งเสียง: รอจนเริ่มพูด (ไม่ตัดเร็ว) + พูดว่า ยกเลิกการนำทาง ได้แล้ว",
-                "apk":  "MOTOBOTNAV-1.18.apk"
+                "versionName":  "1.19",
+                "versionCode":  20,
+                "changelog":  "แท็บใหม่ ดูแลรถ: เลขไมล์จาก GPS บนจอ + เตือนเปลี่ยนน้ำมันเครื่อง โซ่ ยาง ผ้าเบรก ฯลฯ (ต้องอัพเฟิร์มแวร์จอ 1.17)",
+                "apk":  "MOTOBOTNAV-1.19.apk"
             },
     "firmware":  {
-                     "version":  "1.16",
-                     "changelog":  "รองรับ GPS: โชว์ความเร็ว km/h มุมซ้ายบน (ต่อโมดูล ATGM336H ที่ IO27)",
-                     "bin":  "firmware/MOTOBOTNAV-fw-1.16.mbfw",
-                     "md5":  "548be62a205d4aa1d0ecc88f2306196e"
+                     "version":  "1.17",
+                     "changelog":  "เตือนดูแลรถ: จอนับเลขไมล์ด้วย GPS + ขึ้นเตือนถึงรอบเปลี่ยนน้ำมันเครื่อง ฯลฯ (ใช้กับแอป 1.19)",
+                     "bin":  "firmware/MOTOBOTNAV-fw-1.17.mbfw",
+                     "md5":  "678af3bd3994eac07924f8dc65a82153"
                  }
 }
