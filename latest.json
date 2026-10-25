@@ -1,9 +1,9 @@
 {
     "app":  {
-                "versionName":  "1.13",
-                "versionCode":  14,
-                "changelog":  "สั่งด้วยเสียง: แตะปุ่มบนจอ 3 ครั้ง แล้วพูด เช่น นำทางไปที่ทำงาน",
-                "apk":  "MOTOBOTNAV-1.13.apk"
+                "versionName":  "1.14",
+                "versionCode":  15,
+                "changelog":  "สั่งด้วยเสียงได้ตอนจอมือถือดับ / ล็อกอยู่ขอปลดล็อกก่อนเปิด Maps",
+                "apk":  "MOTOBOTNAV-1.14.apk"
             },
     "firmware":  {
                      "version":  "1.11",
