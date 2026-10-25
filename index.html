@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MOTOBOTNAV - จอนำทางติดมอเตอร์ไซค์ มีตาโรบอท</title>
     <meta name="description" content="จอนำทางติดมอเตอร์ไซค์ บอกทางเลี้ยว สายเข้า ข้อความ เพลง และแบตรถ ต่อกับมือถือ Android ผ่านบลูทูธ">
+    <link rel="icon" type="image/png" href="logo.png">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
 
@@ -53,33 +54,8 @@
             border: 1px solid rgba(230, 81, 0, 0.12);
         }
 
-        /* จอจำลอง: ตาโรบอทกะพริบ มองซ้ายขวา */
-        .screen {
-            width: 150px;
-            height: 112px;
-            margin: 0 auto 16px;
-            background: #000;
-            border: 6px solid #222;
-            border-radius: 16px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            box-shadow: 0 10px 24px rgba(0,0,0,0.25);
-        }
-        .eyes { display: flex; gap: 18px; }
-        .eye {
-            width: 38px;
-            height: 38px;
-            border-radius: 10px;
-            background: var(--eye);
-            animation: blink 4.2s infinite, look 7s infinite ease-in-out;
-        }
-        .mouth { width: 34px; height: 5px; border-radius: 3px; background: var(--eye); }
-        @keyframes blink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(0.08); } }
-        @keyframes look { 0%, 40%, 100% { translate: 0 0; } 50%, 65% { translate: -8px -3px; } 75%, 88% { translate: 8px 0; } }
-        @media (prefers-reduced-motion: reduce) { .eye { animation: none; } }
+
+        .logo { display: block; width: 160px; max-width: 50%; margin: 0 auto 16px; }
 
         h1 {
             color: var(--primary);
@@ -173,10 +149,7 @@
 
     <div class="background">
         <div class="content-box">
-            <div class="screen" aria-hidden="true">
-                <div class="eyes"><div class="eye"></div><div class="eye"></div></div>
-                <div class="mouth"></div>
-            </div>
+            <img class="logo" src="logo.png" alt="">
 
             <h1>MOTO<span>BOT</span>NAV</h1>
             <p class="slogan">จอนำทางติดมอเตอร์ไซค์ที่มีตาโรบอท ต่อกับมือถือ Android ผ่านบลูทูธ ไม่ต้องก้มดูมือถือเลย</p>
@@ -190,6 +163,7 @@
                 <li>ปุ่ม PTT คุย Zello กับแก๊งได้ไม่ต้องจับมือถือ</li>
                 <li>วัดแบตรถ เตือนเมื่อแบตต่ำ</li>
                 <li>เตือนรถติดข้างหน้าว่าช้าลงกี่นาที</li>
+                <li>ความเร็วจาก GPS และเตือนถึงรอบเปลี่ยนน้ำมันเครื่อง โซ่ ยาง</li>
             </ul>
 
             <div class="version-info" id="versionBox" style="display: none;">
