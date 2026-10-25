@@ -6,9 +6,9 @@
                 "apk":  "MOTOBOTNAV-1.17.apk"
             },
     "firmware":  {
-                     "version":  "1.13",
-                     "changelog":  "แก้ปุ่มดูตัวอย่างโลโก้ไม่รีสตาร์ท และส่งรูปโลโก้ไม่ได้",
-                     "bin":  "firmware/MOTOBOTNAV-fw-1.13.mbfw",
-                     "md5":  "820413d2fe974ac85ceaa4a3f87c3e0d"
+                     "version":  "1.14",
+                     "changelog":  "แก้ส่งรูปโลโก้ตอนบูตแล้วจอบันทึกไม่สำเร็จ",
+                     "bin":  "firmware/MOTOBOTNAV-fw-1.14.mbfw",
+                     "md5":  "835000111f0522110420a68de3dec87e"
                  }
 }
