@@ -1,14 +1,14 @@
 {
     "app":  {
-                "versionName":  "1.12",
-                "versionCode":  13,
-                "changelog":  "การ์ด Zello ขึ้นทั้ง Zello ภาษาไทยและอังกฤษ",
-                "apk":  "MOTOBOTNAV-1.12.apk"
+                "versionName":  "1.13",
+                "versionCode":  14,
+                "changelog":  "สั่งด้วยเสียง: แตะปุ่มบนจอ 3 ครั้ง แล้วพูด เช่น นำทางไปที่ทำงาน",
+                "apk":  "MOTOBOTNAV-1.13.apk"
             },
     "firmware":  {
-                     "version":  "1.10",
-                     "changelog":  "ปิดการหรี่จอตามเซ็นเซอร์แสง จอหรี่ตามเวลากลางคืนอย่างเดียว",
-                     "bin":  "firmware/MOTOBOTNAV-fw-1.10.mbfw",
-                     "md5":  "288d3cabc85d60f0c33094ea43c39046"
+                     "version":  "1.11",
+                     "changelog":  "แตะปุ่ม 3 ครั้ง = สั่งด้วยเสียง (ต้องใช้แอป 1.13)",
+                     "bin":  "firmware/MOTOBOTNAV-fw-1.11.mbfw",
+                     "md5":  "30456f272e5ec6995c9df9250d12fe58"
                  }
 }
