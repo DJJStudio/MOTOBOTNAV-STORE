@@ -1,9 +1,9 @@
 {
     "app":  {
-                "versionName":  "1.14",
-                "versionCode":  15,
-                "changelog":  "สั่งด้วยเสียงได้ตอนจอมือถือดับ / ล็อกอยู่ขอปลดล็อกก่อนเปิด Maps",
-                "apk":  "MOTOBOTNAV-1.14.apk"
+                "versionName":  "1.15",
+                "versionCode":  16,
+                "changelog":  "ล็อกมือถือกลับเองหลังสั่งนำทางด้วยเสียง (เปิดในหัวข้อสั่งด้วยเสียง)",
+                "apk":  "MOTOBOTNAV-1.15.apk"
             },
     "firmware":  {
                      "version":  "1.11",
