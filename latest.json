@@ -1,14 +1,14 @@
 {
     "app":  {
-                "versionName":  "1.20",
-                "versionCode":  21,
-                "changelog":  "โลโก้ใหม่ MOTOBOTNAV (ไอคอนแอป + หัวแอป)",
-                "apk":  "MOTOBOTNAV-1.20.apk"
+                "versionName":  "1.21",
+                "versionCode":  22,
+                "changelog":  "แก้ตัวหนังสือ MOTOBOTNAV บนหัวแอป (รูในตัว O B A ไม่ทึบแล้ว)",
+                "apk":  "MOTOBOTNAV-1.21.apk"
             },
     "firmware":  {
-                     "version":  "1.19",
-                     "changelog":  "หน้าจอเป็นหน้าโรบอทแบบโลโก้ใหม่ ลูกตาขยับอยู่ในหน้า",
-                     "bin":  "firmware/MOTOBOTNAV-fw-1.19.mbfw",
-                     "md5":  "d5705fa866ee9ed4f21c945ad3468bff"
+                     "version":  "1.20",
+                     "changelog":  "แก้ตัวหนังสือ MOTOBOTNAV ในโลโก้ตอนเปิดจอ (รูในตัว O B A ไม่ทึบแล้ว)",
+                     "bin":  "firmware/MOTOBOTNAV-fw-1.20.mbfw",
+                     "md5":  "d692b5829a22f2d8d6895ace7890c93e"
                  }
 }
