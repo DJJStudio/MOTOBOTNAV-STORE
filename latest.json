@@ -1,14 +1,14 @@
 {
     "app":  {
-                "versionName":  "1.16",
-                "versionCode":  17,
-                "changelog":  "เลือกรูปโลโก้ตอนบูตเองได้ 2 ช่อง (หน้าตาจอ > โลโก้ตอนบูต)",
-                "apk":  "MOTOBOTNAV-1.16.apk"
+                "versionName":  "1.17",
+                "versionCode":  18,
+                "changelog":  "หน้าแอปใหม่ แบ่ง 4 แท็บ: เชื่อมต่อ / ใช้งาน / หน้าจอ / ระบบ",
+                "apk":  "MOTOBOTNAV-1.17.apk"
             },
     "firmware":  {
-                     "version":  "1.12",
-                     "changelog":  "โลโก้ตอนบูตใช้รูปที่เลือกในแอปได้ (ต้องใช้แอป 1.16)",
-                     "bin":  "firmware/MOTOBOTNAV-fw-1.12.mbfw",
-                     "md5":  "758c1d1a4664e7a24dfef4eda1536570"
+                     "version":  "1.13",
+                     "changelog":  "แก้ปุ่มดูตัวอย่างโลโก้ไม่รีสตาร์ท และส่งรูปโลโก้ไม่ได้",
+                     "bin":  "firmware/MOTOBOTNAV-fw-1.13.mbfw",
+                     "md5":  "820413d2fe974ac85ceaa4a3f87c3e0d"
                  }
 }
