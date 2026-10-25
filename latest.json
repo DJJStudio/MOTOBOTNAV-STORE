@@ -1,9 +1,9 @@
 {
     "app":  {
-                "versionName":  "1.17",
-                "versionCode":  18,
-                "changelog":  "หน้าแอปใหม่ แบ่ง 4 แท็บ: เชื่อมต่อ / ใช้งาน / หน้าจอ / ระบบ",
-                "apk":  "MOTOBOTNAV-1.17.apk"
+                "versionName":  "1.18",
+                "versionCode":  19,
+                "changelog":  "สั่งเสียง: รอจนเริ่มพูด (ไม่ตัดเร็ว) + พูดว่า ยกเลิกการนำทาง ได้แล้ว",
+                "apk":  "MOTOBOTNAV-1.18.apk"
             },
     "firmware":  {
                      "version":  "1.15",
