@@ -6,9 +6,9 @@
                 "apk":  "MOTOBOTNAV-1.21.apk"
             },
     "firmware":  {
-                     "version":  "1.20",
-                     "changelog":  "แก้ตัวหนังสือ MOTOBOTNAV ในโลโก้ตอนเปิดจอ (รูในตัว O B A ไม่ทึบแล้ว)",
-                     "bin":  "firmware/MOTOBOTNAV-fw-1.20.mbfw",
-                     "md5":  "d692b5829a22f2d8d6895ace7890c93e"
+                     "version":  "1.21",
+                     "changelog":  "อารมณ์ใหม่ทั้งหน้า: ดีใจ พูด ตกใจ ง่วง บึ้ง เคลิ้ม + เหงาตอนยังไม่ต่อมือถือ",
+                     "bin":  "firmware/MOTOBOTNAV-fw-1.21.mbfw",
+                     "md5":  "02ed32f7d89117bcfc7677d164e7ec9e"
                  }
 }
