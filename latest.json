@@ -6,9 +6,9 @@
                 "apk":  "MOTOBOTNAV-1.17.apk"
             },
     "firmware":  {
-                     "version":  "1.14",
-                     "changelog":  "แก้ส่งรูปโลโก้ตอนบูตแล้วจอบันทึกไม่สำเร็จ",
-                     "bin":  "firmware/MOTOBOTNAV-fw-1.14.mbfw",
-                     "md5":  "835000111f0522110420a68de3dec87e"
+                     "version":  "1.15",
+                     "changelog":  "แก้โลโก้ตอนบูตช่อง 2 ยังขึ้นเป็นโลโก้เดิม",
+                     "bin":  "firmware/MOTOBOTNAV-fw-1.15.mbfw",
+                     "md5":  "4a0f6d03f7f70b2ccc50e35fcc1f0a57"
                  }
 }
