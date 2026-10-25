@@ -6,9 +6,9 @@
                 "apk":  "MOTOBOTNAV-1.18.apk"
             },
     "firmware":  {
-                     "version":  "1.15",
-                     "changelog":  "แก้โลโก้ตอนบูตช่อง 2 ยังขึ้นเป็นโลโก้เดิม",
-                     "bin":  "firmware/MOTOBOTNAV-fw-1.15.mbfw",
-                     "md5":  "4a0f6d03f7f70b2ccc50e35fcc1f0a57"
+                     "version":  "1.16",
+                     "changelog":  "รองรับ GPS: โชว์ความเร็ว km/h มุมซ้ายบน (ต่อโมดูล ATGM336H ที่ IO27)",
+                     "bin":  "firmware/MOTOBOTNAV-fw-1.16.mbfw",
+                     "md5":  "548be62a205d4aa1d0ecc88f2306196e"
                  }
 }
