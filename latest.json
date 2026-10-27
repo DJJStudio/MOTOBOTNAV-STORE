@@ -1,14 +1,14 @@
 {
     "app":  {
-                "versionName":  "1.21",
-                "versionCode":  22,
-                "changelog":  "แก้ตัวหนังสือ MOTOBOTNAV บนหัวแอป (รูในตัว O B A ไม่ทึบแล้ว)",
-                "apk":  "MOTOBOTNAV-1.21.apk"
+                "versionName":  "1.22",
+                "versionCode":  23,
+                "changelog":  "โลโก้ใหม่สีส้ม: ไอคอนแอป และหัวแอป\nสีส้มในแอปเป็นสีเดียวกับโลโก้",
+                "apk":  "MOTOBOTNAV-1.22.apk"
             },
     "firmware":  {
-                     "version":  "1.21",
-                     "changelog":  "อารมณ์ใหม่ทั้งหน้า: ดีใจ พูด ตกใจ ง่วง บึ้ง เคลิ้ม + เหงาตอนยังไม่ต่อมือถือ",
-                     "bin":  "firmware/MOTOBOTNAV-fw-1.21.mbfw",
-                     "md5":  "02ed32f7d89117bcfc7677d164e7ec9e"
+                     "version":  "1.22",
+                     "changelog":  "โลโก้ใหม่สีส้ม: หน้าโรบอทบนจอ และโลโก้ตอนเปิดเครื่อง\nสีส้มบนจอเป็นสีเดียวกับโลโก้",
+                     "bin":  "firmware/MOTOBOTNAV-fw-1.22.mbfw",
+                     "md5":  "2772b95fa5c52de804381de6816dff13"
                  }
 }
