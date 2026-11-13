@@ -12,9 +12,9 @@
         "md5": "fab0889c942d7f6f0fae0a9864dfa226"
     },
     "firmware_landscape": {
-        "version": "1.33",
-        "changelog": "หน้าจับเวลา 0-60 / 0-100 กม./ชม. จาก GPS: ปัดจอต่อจากหน้าความเร็ว จอดนิ่งแล้วออกตัว จอนับเวลาเอง เก็บสถิติดีสุดไว้ (กดจอค้าง 2 วิ = ล้างสถิติ)",
-        "bin": "firmware/MOTOBOTNAV-fw-1.33-landscape.mbfw",
-        "md5": "5ba2d11f2af5215510225e9f19bab810"
+        "version": "1.34",
+        "changelog": "หน้าความเร็วมีกล่องความสูงจากน้ำทะเล (จาก GPS) / แก้ตัวหนังสือในกล่องหน้าจับเวลาที่ขึ้นเป็นขีดๆ",
+        "bin": "firmware/MOTOBOTNAV-fw-1.34-landscape.mbfw",
+        "md5": "4b9b58962a5bdf20c87c20c8d62eb608"
     }
 }
