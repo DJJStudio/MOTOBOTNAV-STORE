@@ -12,9 +12,9 @@
         "md5": "fab0889c942d7f6f0fae0a9864dfa226"
     },
     "firmware_landscape": {
-        "version": "1.35",
-        "changelog": "แก้ปุ่มกดทำงานเองตอนติดเครื่อง (กันไฟกระชากจากเครื่องยนต์)",
-        "bin": "firmware/MOTOBOTNAV-fw-1.35-landscape.mbfw",
-        "md5": "b2261d59a240ff89da6ba71ae238f56d"
+        "version": "1.36",
+        "changelog": "ปล่อยปุ่ม PTT แล้วเพลงไม่หยุด/เล่นเองแล้ว / กันปุ่มกดเองตอนติดเครื่อง",
+        "bin": "firmware/MOTOBOTNAV-fw-1.36-landscape.mbfw",
+        "md5": "cc2061c48603abeac8c6de7a3fc70cac"
     }
 }
