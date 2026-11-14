@@ -12,9 +12,9 @@
         "md5": "fab0889c942d7f6f0fae0a9864dfa226"
     },
     "firmware_landscape": {
-        "version": "1.36",
-        "changelog": "ปล่อยปุ่ม PTT แล้วเพลงไม่หยุด/เล่นเองแล้ว / กันปุ่มกดเองตอนติดเครื่อง",
-        "bin": "firmware/MOTOBOTNAV-fw-1.36-landscape.mbfw",
-        "md5": "cc2061c48603abeac8c6de7a3fc70cac"
+        "version": "1.37",
+        "changelog": "โลโก้ตอนบูตสั้นลง เข้าหน้าหลักไวขึ้น (ราว 4 วินาทีหลังบิดกุญแจ)",
+        "bin": "firmware/MOTOBOTNAV-fw-1.37-landscape.mbfw",
+        "md5": "9b51f1d3a1beeaf0e0949a2cc400d3d6"
     }
 }
