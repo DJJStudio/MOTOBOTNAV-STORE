@@ -12,9 +12,9 @@
         "md5": "fab0889c942d7f6f0fae0a9864dfa226"
     },
     "firmware_landscape": {
-        "version": "1.34",
-        "changelog": "หน้าความเร็วมีกล่องความสูงจากน้ำทะเล (จาก GPS) / แก้ตัวหนังสือในกล่องหน้าจับเวลาที่ขึ้นเป็นขีดๆ",
-        "bin": "firmware/MOTOBOTNAV-fw-1.34-landscape.mbfw",
-        "md5": "4b9b58962a5bdf20c87c20c8d62eb608"
+        "version": "1.35",
+        "changelog": "แก้ปุ่มกดทำงานเองตอนติดเครื่อง (กันไฟกระชากจากเครื่องยนต์)",
+        "bin": "firmware/MOTOBOTNAV-fw-1.35-landscape.mbfw",
+        "md5": "b2261d59a240ff89da6ba71ae238f56d"
     }
 }
